@@ -24,10 +24,10 @@ El diagrama de clases es uno de los diagramas incluidos en UML 2.5 clasificado d
 <img width="auto" src="diagramaClass.drawio.svg" />
 
 
-
 # Diagrama Casos de Uso
+El diagrama de casos de uso es una forma de diagrama de comportamiento en lenguaje de modelado unificado (UML, del inglés Unified Modelling Language), con la que se representan procesos empresariales, así como sistemas y procesos de programación orientada a objetos.
 
-<img width="auto" src="./images/document_search_engine_architecture.png" />
+<img width="auto" src="diagramaUso.drawio.svg" />
 
 # Diagrama Entidad Relacion
 

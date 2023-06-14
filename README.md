@@ -37,26 +37,20 @@ Un diagrama entidad-relación, también conocido como modelo entidad relación o
 
 # Listado Inferfaces
 
-* Spring Boot 2.3.5 / Apache Maven 3.6.3.
-* Spring Boot Starter Actuator.
-* Spring Cloud Stream.
-* Spring Cloud Gateway.
-* Spring Cloud Starter Consul Discovery.
-* Spring Cloud Starter OpenFeign.
-* Springdoc OpenApi.
-* Spring Boot Starter Security.
-* Spring Security OAuth2.
-* ElasticSearch - Logstash - Kibana (ELK Stack).
-* MongoDB.
-* Mongo DB Express (Web-based MongoDB admin interface, written with Node.js and express).
-* Consul Server.
-* SSO Keycloak Server.
-* Hadoop HDFS.
-* Apache Nifi.
-* Apache Tika Server.
-* Rabbit MQ / STOMP protocol.
-* Apache Kafka.
-* Kafka Rest Proxy
+| Container | Port |
+| ------ | ------ |
+| Apache Nifi Dashboard UI | localhost:8080 |
+| Hadoop Resource Manager | localhost:8081 |
+| Kafka Topics UI | localhost:8082 |
+| MongoDB Express | localhost:8083 |
+| Kibana | localhost:8084 |
+| Keycloak PGAdmin | localhost:8085 |
+| Keycloak Admin UI | localhost:8086 |
+| Consul Dashboard | localhost:8087 |
+| Rabbit MQ - Stomp Dashboard | localhost:8088 |
+| Hadoop NameNode Dashboard | localhost:8089 |
+| API Gateway SSH  | localhost:2223 |
+| SFTP Server | localhost:2222 |
 
 # Diseño de Interfaces
 
@@ -76,24 +70,7 @@ Un diagrama entidad-relación, también conocido como modelo entidad relación o
 <img width="auto" src="Imagen1.jpg" />
 
 
-### Containers Ports
 
-In this table you can view the ports assigned to each service to access to the Web tools or something else you can use to monitoring the flow.
-
-| Container | Port |
-| ------ | ------ |
-| Apache Nifi Dashboard UI | localhost:8080 |
-| Hadoop Resource Manager | localhost:8081 |
-| Kafka Topics UI | localhost:8082 |
-| MongoDB Express | localhost:8083 |
-| Kibana | localhost:8084 |
-| Keycloak PGAdmin | localhost:8085 |
-| Keycloak Admin UI | localhost:8086 |
-| Consul Dashboard | localhost:8087 |
-| Rabbit MQ - Stomp Dashboard | localhost:8088 |
-| Hadoop NameNode Dashboard | localhost:8089 |
-| API Gateway SSH  | localhost:2223 |
-| SFTP Server | localhost:2222 |
 
 
 

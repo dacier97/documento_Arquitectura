@@ -37,18 +37,10 @@ Un diagrama entidad-relación, también conocido como modelo entidad relación o
 
 # Listado Inferfaces
 
-| Container | Port |
+| Nombre Interface | Descripcion |
 | ------ | ------ |
-| Apache Nifi Dashboard UI | localhost:8080 |
-| Hadoop Resource Manager | localhost:8081 |
-| Kafka Topics UI | localhost:8082 |
-| MongoDB Express | localhost:8083 |
-| Kibana | localhost:8084 |
-| Keycloak PGAdmin | localhost:8085 |
-| Keycloak Admin UI | localhost:8086 |
-| Consul Dashboard | localhost:8087 |
-| Rabbit MQ - Stomp Dashboard | localhost:8088 |
-| Hadoop NameNode Dashboard | localhost:8089 |
+|Conexion a Base datos| SQL SERVER |
+|Conexion al frontend | comunicacion Birediccional  |
 | API Gateway SSH  | localhost:2223 |
 | SFTP Server | localhost:2222 |
 

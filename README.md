@@ -11,10 +11,8 @@ Cliente FOOBREX LOGISTICS
 - Diseño de Interfaces
 
 
-#Diagrama de Componentes
-
-* ETL process design based on Apache Nifi's flow-based programming model to proccess and extract all metadata and content from each files.
-* Microservice architecture to interact with the platform. Concretely we can get metadata from a specific file, launch a new file processing, make a complex queries to search files that have a specific term into their content.
+# Diagrama de Componentes
+Los diagramas de componentes UML representan las relaciones entre los componentes individuales del sistema mediante una vista de diseño estática. Pueden ilustrar aspectos de modelado lógico y físico.
 
 # Diagrama de Clases
 

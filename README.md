@@ -3,12 +3,12 @@ Cliente FOOBREX LOGISTICS
 
 # TABLA DE CONTENIDO
 
--Diagrama de Componentes
--Diagrama de Clases
--Diagrama Casos de Uso
--Diagrama Entidad Relacion
--Listado Inferfaces
--Diseño de Interfaces
+- Diagrama de Componentes
+- Diagrama de Clases
+- Diagrama Casos de Uso
+- Diagrama Entidad Relacion
+- Listado Inferfaces
+- Diseño de Interfaces
 
 
 #Diagrama de Componentes

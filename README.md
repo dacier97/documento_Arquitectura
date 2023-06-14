@@ -1,14 +1,22 @@
-# A document search engine architectural approach
-An architectural approach to implementing a large-scale document search engine based on Apache Nifi.
+# DOCUMENTO DE DISEÑO TECNICO
+Cliente FOOBREX LOGISTICS 
 
-Also you can read more detail information about this project [in this Medium article](https://sanchezsanchezsergio418.medium.com/an-architectural-approach-to-implement-a-large-scale-document-search-engine-based-on-apache-nifi-430cbe91065f?source=your_stories_page-------------------------------------).
+# TABLA DE CONTENIDO
 
-## Main Components
+-Diagrama de Componentes
+-Diagrama de Clases
+-Diagrama Casos de Uso
+-Diagrama Entidad Relacion
+-Listado Inferfaces
+-Diseño de Interfaces
+
+
+#Diagrama de Componentes
 
 * ETL process design based on Apache Nifi's flow-based programming model to proccess and extract all metadata and content from each files.
 * Microservice architecture to interact with the platform. Concretely we can get metadata from a specific file, launch a new file processing, make a complex queries to search files that have a specific term into their content.
 
-## Main Goals
+# Diagrama de Clases
 
 * It should have a fast and efficient search, providing the same search experience as others engine search.
 * All text in documents (including their content) must be extracted and indexed.
@@ -17,11 +25,11 @@ Also you can read more detail information about this project [in this Medium art
 * It should be optimized to store large amounts of data and maintain multiple copies to ensure high availability and fault tolerance.
 * It should have the ability to integrate with external systems to collaborate on more complex tasks or simply define platform usage schemes.
 
-## Architecture Overview
+# Diagrama Casos de Uso
 
 <img width="auto" src="./images/document_search_engine_architecture.png" />
 
-### Several things to be consider
+# Diagrama Entidad Relacion
 
 * I am using a HDFS Cluster with 3 datanodes to store the original files that they will be process.
 * I am using two versions of Apache Tika server, one of them has a OCR capabilities to extract content from images or proccess scanned pdfs.
@@ -33,7 +41,7 @@ Also you can read more detail information about this project [in this Medium art
 * All services exposed of each services require authentication and authorization, therefore, it is necessary get a identity from the SSO Keycloak Server through the API Gateway Service.
 * The API Gateway microservice unifies all APIs into a single API (using Spring Cloud Gateway for that), therefore, only will be necessary knows the location of gateway to interact with the platform.
 
-## Used technology
+# Listado Inferfaces
 
 * Spring Boot 2.3.5 / Apache Maven 3.6.3.
 * Spring Boot Starter Actuator.
@@ -56,7 +64,7 @@ Also you can read more detail information about this project [in this Medium art
 * Apache Kafka.
 * Kafka Rest Proxy
 
-## Running Applications as Docker containers.
+# Diseño de Interfaces
 
 ### Rake Tasks
 

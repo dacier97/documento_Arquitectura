@@ -14,6 +14,8 @@ Cliente FOOBREX LOGISTICS
 # Diagrama de Componentes
 Los diagramas de componentes UML representan las relaciones entre los componentes individuales del sistema mediante una vista de diseño estática. Pueden ilustrar aspectos de modelado lógico y físico.
 
+<img width="auto" src="diagramaComponetes.drawio.svg" />
+
 # Diagrama de Clases
 
 * It should have a fast and efficient search, providing the same search experience as others engine search.

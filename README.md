@@ -60,11 +60,6 @@ Un diagrama entidad-relación, también conocido como modelo entidad relación o
 
 # Diseño de Interfaces
 
-### Rake Tasks
-
-The available tasks are detailed below (rake --task)
-
-
 | Task | Description |
 | ------ | ------ |
 | check_deployment_file_task | Check Deployment File |
@@ -78,7 +73,7 @@ The available tasks are detailed below (rake --task)
 | undeploy | UnDeploy Document Search Engine architecture |
 
 
-To start the platform make sure you have Ruby installed, go to the root directory of the project and run the `rake deploy` task, this task will carry out a series of preliminary checks, discard images and volumes that are no longer necessary and also proceed to download all the images and the initialization of the containers.
+<img width="auto" src="imagen1.jpg" />
 
 
 ### Containers Ports

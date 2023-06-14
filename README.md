@@ -73,7 +73,7 @@ Un diagrama entidad-relación, también conocido como modelo entidad relación o
 | undeploy | UnDeploy Document Search Engine architecture |
 
 
-<img width="auto" src="imagen1.jpg" />
+<img width="auto" src="Imagen1.jpg" />
 
 
 ### Containers Ports
